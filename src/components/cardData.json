@@ -1,0 +1,58 @@
+[
+    {
+        "description": "An application for storing and sharing your own recipes.",
+        "id": 1,
+        "img": "../../img/cookbook.jpg",
+        "link": "https://the-cookbook-app.herokuapp.com/",
+        "name": "Cookbook",
+        "repo": "https://github.com/shiftymitch/cookbook"
+    },
+    {
+        "description": "An easy way to find relevant Earthquake data & news near you.",
+        "id": 2,
+        "img": "../../img/earthquake-now-preview.jpg",
+        "link": "https://shiftymitch.github.io/Earthquake-Now/",
+        "name": "Earthquake Now",
+        "repo": "https://github.com/shiftymitch/Earthquake-Now"
+    },
+    {
+        "description": "An easy way to get weather for a specified location.",
+        "id": 3,
+        "img": "../../img/Weather-Report.jpg",
+        "link": "https://shiftymitch.github.io/portfolio/6/",
+        "name": "Weather Report",
+        "repo": "https://github.com/shiftymitch/portfolio/tree/master/6"
+    },
+    {
+        "description": "A time-based todo list for your work day.",
+        "id": 4,
+        "img": "../../img/Workday-Scheduler.jpg",
+        "link": "https://shiftymitch.github.io/portfolio/5/",
+        "name": "Workday Scheduler",
+        "repo": "https://github.com/shiftymitch/portfolio/tree/master/5"
+    },
+    {
+        "description": "Track your income & expenses with additional offline functionality.",
+        "id": 5,
+        "img": "../../img/budget-tracker.png",
+        "link": "https://shiftymitch-budget-tracker.herokuapp.com/",
+        "name": "Budget Tracker",
+        "repo": "https://github.com/shiftymitch/budget-tracker"
+    },
+    {
+        "description": "An MVC application to make, eat, and delete burgers.",
+        "id": 6,
+        "img": "../../img/eataburger.png",
+        "link": "https://shiftymitch-eat-da-burger.herokuapp.com/",
+        "name": "Eat Da Burger",
+        "repo": "https://github.com/shiftymitch/eatdaburger"
+    },
+    {
+        "description": "A password generator with customizable criteria.",
+        "id": 6,
+        "img": "../../img/password-generator.png",
+        "link": "https://shiftymitch.github.io/portfolio/3/",
+        "name": "Password Generator",
+        "repo": "https://github.com/shiftymitch/password-generator"
+    }
+]
