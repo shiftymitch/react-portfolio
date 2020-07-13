@@ -1,6 +1,6 @@
 import React from "react";
 
-function Card(props) {
+function Project(props) {
     return <div className="card m-3 p-3" style={{width: "16rem"}} id={props.id}>
         <a href={props.link} target="_blank" rel="noopener noreferrer">
             <img src={props.img} className="card-img-top" alt={props.name}></img>
@@ -19,4 +19,4 @@ function Card(props) {
     </div>
 }
 
-export default Card;
+export default Project;
