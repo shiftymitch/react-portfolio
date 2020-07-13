@@ -54,5 +54,13 @@
         "link": "https://shiftymitch.github.io/portfolio/3/",
         "name": "Password Generator",
         "repo": "https://github.com/shiftymitch/password-generator"
+    },
+    {
+        "description": "A React application to search and filter a large employee database.",
+        "id": 8,
+        "img": "/img/employee-directory.jpg",
+        "link": "https://shiftymitch-employee-directory.herokuapp.com/",
+        "name": "Employee Directory",
+        "repo": "https://github.com/shiftymitch/employee-directory"
     }
 ]
