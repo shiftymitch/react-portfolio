@@ -10,7 +10,7 @@
     {
         "description": "An easy way to find relevant Earthquake data & news near you.",
         "id": 2,
-        "img": "/img/earthquake-now-preview.jpg",
+        "img": "/img/earthquake-now.jpg",
         "link": "https://shiftymitch.github.io/Earthquake-Now/",
         "name": "Earthquake Now",
         "repo": "https://github.com/shiftymitch/Earthquake-Now"
