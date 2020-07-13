@@ -48,8 +48,16 @@
         "repo": "https://github.com/shiftymitch/eatdaburger"
     },
     {
+        "description": "A javascript + localStorage quiz application.",
+        "id": 6,
+        "img": "/img/coding-quiz.png",
+        "link": "https://shiftymitch.github.io/portfolio/4/",
+        "name": "Coding Quiz",
+        "repo": "https://github.com/shiftymitch/portfolio/tree/master/4/"
+    },
+    {
         "description": "A password generator with customizable criteria.",
-        "id": 7,
+        "id": 8,
         "img": "/img/password-generator.png",
         "link": "https://shiftymitch.github.io/portfolio/3/",
         "name": "Password Generator",
@@ -57,7 +65,7 @@
     },
     {
         "description": "A React application to search and filter a large employee database.",
-        "id": 8,
+        "id": 9,
         "img": "/img/employee-directory.jpg",
         "link": "https://shiftymitch-employee-directory.herokuapp.com/",
         "name": "Employee Directory",
