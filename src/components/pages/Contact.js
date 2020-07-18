@@ -3,19 +3,19 @@ import Button from "../Button";
 
 function Contact() {
     return (
-        <div class="container">
-            <div class="row d-flex justify-content-around">
-                <div class="contact-me card-group">
-                    <div class="card m-3 p-3 text-center">
-                        <div class="col">
-                            <div class="contact-me-card">
-                                <h2 class="text-capitalize">Contact Me</h2>
+        <div className="container">
+            <div className="row">
+                <div className="contact-me card-group">
+                    <div className="card m-3 p-3 text-center">
+                        <div className="col">
+                            <div className="contact-me-card">
+                                <h2 className="text-capitalize">Contact Me</h2>
                                 <hr></hr>
                                 <p><strong>Mitch Henderson</strong></p>
                                 <p>Salt Lake City, UT</p>
                                 <p>+1(801)599-0413</p>
                                 <a href="mailto:shiftymitch@gmail.com">
-                                    <button class="btn btn-secondary btn-dark contact-button mb-3">
+                                    <button className="btn btn-secondary btn-dark contact-button mb-3">
                                         shiftymitch@gmail.com
                                     </button>
                                 </a>
@@ -24,7 +24,63 @@ function Contact() {
                     </div>
                 </div>
             </div>
-            <Button btnText="← portfolio" link={"/"}/>
+            <div className="row">
+                <div className="card-group">
+                    <div className="card m-3 p-3 text-center">
+                        <div className="col">
+                            <ul>
+                                <h2 className="text-capitalize">My Resume</h2>
+                                <hr></hr>
+                                <li>
+                                    <a href="https://docs.google.com/document/d/1eaYadtXdxD4pLtSlofdba9n4iBKFrpWhfv3goER0cj0/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
+                                        <button className="btn btn-secondary btn-dark contact-button">
+                                            <strong>view</strong>
+                                        </button>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div className="card-group">
+                    <div className="card m-3 p-3 text-center">
+                        <div className="col">
+                            <ul>
+                                <h2 className="text-capitalize">Github</h2>
+                                <hr></hr>
+                                <li>
+                                    <a href="https://github.com/shiftymitch" target="_blank" rel="noopener noreferrer">
+                                        <button className="btn btn-secondary btn-dark contact-button">
+                                            <strong>view</strong>
+                                        </button>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div className="card-group">
+                    <div className="card m-3 p-3 text-center">
+                        <div className="col">
+                            <ul>
+                                <h2 className="text-capitalize">LinkedIn</h2>
+                                <hr></hr>
+                                <li>
+                                    <a href="https://www.linkedin.com/in/mitch-henderson-a277bb37/" target="_blank" rel="noopener noreferrer">
+                                        <button className="btn btn-secondary btn-dark contact-button">
+                                            <strong>view</strong>
+                                        </button>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br></br>
+            <Button  btnText="← home" link={"/home"}/>
+            <br></br>
+            <br></br>
         </div>
     );
 }
