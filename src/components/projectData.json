@@ -18,7 +18,7 @@
     {
         "description": "A tool to compare 2 Spotify artists.",
         "id": 3,
-        "img": "/img/Spotify-Compare.jpg",
+        "img": "/img/Spotify-Compare.png",
         "link": "https://spotify-artist-compare.herokuapp.com/",
         "name": "Spotify Artist Compare",
         "repo": "https://github.com/shiftymitch/spotify-artist-compare"
@@ -26,7 +26,7 @@
     {
         "description": "A book search tool to find and save books.",
         "id": 4,
-        "img": "/img/Google-Books-Search.jpg",
+        "img": "/img/Google-Books-Search.png",
         "link": "https://shiftymitch-google-books.herokuapp.com/",
         "name": "Google Books Search",
         "repo": "https://github.com/shiftymitch/google-books-search"
