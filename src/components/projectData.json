@@ -32,6 +32,14 @@
         "repo": "https://github.com/shiftymitch/google-books-search"
     },
     {
+        "description": "A React application to search and filter a large employee database.",
+        "id": 11,
+        "img": "/img/employee-directory.jpg",
+        "link": "https://shiftymitch-employee-directory.herokuapp.com/",
+        "name": "Employee Directory",
+        "repo": "https://github.com/shiftymitch/employee-directory"
+    }
+    {
         "description": "An easy way to get weather for a specified location.",
         "id": 5,
         "img": "/img/Weather-Report.jpg",
@@ -78,13 +86,5 @@
         "link": "https://shiftymitch.github.io/portfolio/3/",
         "name": "Password Generator",
         "repo": "https://github.com/shiftymitch/password-generator"
-    },
-    {
-        "description": "A React application to search and filter a large employee database.",
-        "id": 11,
-        "img": "/img/employee-directory.jpg",
-        "link": "https://shiftymitch-employee-directory.herokuapp.com/",
-        "name": "Employee Directory",
-        "repo": "https://github.com/shiftymitch/employee-directory"
     }
 ]
