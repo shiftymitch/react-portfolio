@@ -38,7 +38,7 @@
         "link": "https://shiftymitch-employee-directory.herokuapp.com/",
         "name": "Employee Directory",
         "repo": "https://github.com/shiftymitch/employee-directory"
-    }
+    },
     {
         "description": "An easy way to get weather for a specified location.",
         "id": 5,
