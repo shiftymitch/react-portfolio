@@ -16,8 +16,24 @@
         "repo": "https://github.com/shiftymitch/Earthquake-Now"
     },
     {
-        "description": "An easy way to get weather for a specified location.",
+        "description": "A tool to compare 2 Spotify artists.",
         "id": 3,
+        "img": "/img/Spotify-Compare.jpg",
+        "link": "https://spotify-artist-compare.herokuapp.com/",
+        "name": "Spotify Artist Compare",
+        "repo": "https://github.com/shiftymitch/spotify-artist-compare"
+    },
+    {
+        "description": "A book search tool to find and save books.",
+        "id": 4,
+        "img": "/img/Google-Books-Search.jpg",
+        "link": "https://shiftymitch-google-books.herokuapp.com/",
+        "name": "Google Books Search",
+        "repo": "https://github.com/shiftymitch/google-books-search"
+    },
+    {
+        "description": "An easy way to get weather for a specified location.",
+        "id": 5,
         "img": "/img/Weather-Report.jpg",
         "link": "https://shiftymitch.github.io/portfolio/6/",
         "name": "Weather Report",
@@ -25,7 +41,7 @@
     },
     {
         "description": "A time-based todo list for your work day.",
-        "id": 4,
+        "id": 6,
         "img": "/img/Workday-Scheduler.jpg",
         "link": "https://shiftymitch.github.io/portfolio/5/",
         "name": "Workday Scheduler",
@@ -33,7 +49,7 @@
     },
     {
         "description": "Track your income & expenses with additional offline functionality.",
-        "id": 5,
+        "id": 7,
         "img": "/img/budget-tracker.png",
         "link": "https://shiftymitch-budget-tracker.herokuapp.com/",
         "name": "Budget Tracker",
@@ -41,7 +57,7 @@
     },
     {
         "description": "An MVC application to make, eat, and delete burgers.",
-        "id": 6,
+        "id": 8,
         "img": "/img/eataburger.png",
         "link": "https://shiftymitch-eat-da-burger.herokuapp.com/",
         "name": "Eat Da Burger",
@@ -49,7 +65,7 @@
     },
     {
         "description": "A javascript + localStorage quiz application.",
-        "id": 6,
+        "id": 9,
         "img": "/img/coding-quiz.png",
         "link": "https://shiftymitch.github.io/portfolio/4/",
         "name": "Coding Quiz",
@@ -57,7 +73,7 @@
     },
     {
         "description": "A password generator with customizable criteria.",
-        "id": 8,
+        "id": 10,
         "img": "/img/password-generator.png",
         "link": "https://shiftymitch.github.io/portfolio/3/",
         "name": "Password Generator",
@@ -65,7 +81,7 @@
     },
     {
         "description": "A React application to search and filter a large employee database.",
-        "id": 9,
+        "id": 11,
         "img": "/img/employee-directory.jpg",
         "link": "https://shiftymitch-employee-directory.herokuapp.com/",
         "name": "Employee Directory",
