@@ -16,6 +16,7 @@ function Home() {
                             link={project.link} 
                             name={project.name} 
                             repo={project.repo} 
+                            tech={project.tech}
                             >
                         </Project>
                     );

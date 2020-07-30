@@ -10,7 +10,8 @@ function Project(props) {
         </div>
         <hr></hr>
         <div className="card-body mt-0 pt-0">
-            <p className="card-text mb-4">{props.description}</p>
+            <p className="card-text mb-3">{props.description}</p>
+            <p className="card-text" style={{color: "grey"}}><strong>Tech Stack: </strong>{props.tech}</p>
         </div>
         <div className="row btn-group">
             <a href={props.repo} className="btn btn-secondary mr-1 ml-3" target="_blank" rel="noopener noreferrer">View Repo</a>
