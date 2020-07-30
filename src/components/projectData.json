@@ -27,7 +27,7 @@
         "description": "A book search tool to find and save books.",
         "id": 4,
         "img": "/img/Google-Books-Search.png",
-        "link": "https://shiftymitch-google-books.herokuapp.com/",
+        "link": "https://shiftymitch-google-books.herokuapp.com/saved",
         "name": "Google Books Search",
         "repo": "https://github.com/shiftymitch/google-books-search"
     },
