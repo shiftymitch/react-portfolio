@@ -31,7 +31,7 @@ Each project includes a link to the Github repo and the live application.
 
 ### Check It Out
 
-The site is live [HERE](https://shiftymitch-employee-directory.herokuapp.com/)
+The site is live [HERE](https://shiftymitch-portfolio.herokuapp.com/)
 
 ---
 
