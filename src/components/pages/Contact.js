@@ -78,7 +78,7 @@ function Contact() {
                 </div>
             </div>
             <br></br>
-            <Button  btnText="← home" link={"/home"}/>
+            <Button  btnText="← home" link={"/"}/>
             <br></br>
             <br></br>
         </div>
