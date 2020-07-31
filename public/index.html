@@ -2,24 +2,43 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/img/cx_logo.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
-      name="description"
-      content="Mitch Henderson's Full Stack Web Application Portfolio"
+    name="description"
+    content="Mitch Henderson's Full Stack Web Application Portfolio"
     />
     <meta property="og:title" content="shiftycx | portfolio"/>
     <meta property="og:url" content="https://shiftymitch-portfolio.herokuapp.com/"/>
     <meta property="og:image" content="%PUBLIC_URL%/img/LiveApp_ScreenShot.png"/>
     <meta property="og:site_name" content="shiftycx | portfolio"/>
     <meta property="og:description"
-          content="My web application portfolio."/>
-
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    content="My web application portfolio."/>
+    
     <title>shiftycx | portfolio</title>
+    
+    <link rel="icon" href="%PUBLIC_URL%/img/cx_logo.svg" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
     <link rel="stylesheet" href="%PUBLIC_URL%/reset.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="%PUBLIC_URL%/style.css">
+
+    <!-- Facebook Pixel Code -->
+    <script>
+      !function(f,b,e,v,n,t,s)
+      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+      n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)}(window, document,'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', '950277672050751');
+      fbq('track', 'PageView');
+      </script>
+      <noscript><img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=950277672050751&ev=PageView&noscript=1"
+      /></noscript>
+
   </head>
   <body class="bg1">
     <noscript>You need to enable JavaScript to run this app.</noscript>
@@ -28,9 +47,9 @@
     <div id="root"></div>
     
     <!-- Scripts -->
-    <!-- JQuery --><script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <!-- Bootstrap tooltips --><script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
-    <!-- Bootstrap core JavaScript --><script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
-    <!-- MDB core JavaScript --><script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.14.0/js/mdb.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.14.0/js/mdb.min.js"></script>
   </body>
 </html>
