@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Header() {
     return (   
@@ -10,9 +11,9 @@ function Header() {
             </button>
             <div className="collapse navbar-collapse" id="navbarNav">
                 <div className="navbar-nav">
-                    <a className="nav-item nav-link" href="./">portfolio</a>
-                    <a className="nav-item nav-link" href="./about">about</a>
-                    <a className="nav-item nav-link" href="./contact">contact</a>
+                    <Link className="nav-item nav-link" to={"./"}>portfolio</Link>
+                    <Link className="nav-item nav-link" to={"./about"}>about</Link>
+                    <Link className="nav-item nav-link" to={"./contact"}>contact</Link>
                 </div>
                 <div className="ref-links ml-auto row">
                     <a className="nav-item nav-link" href="https://github.com/shiftymitch" target="_blank" rel="noopener noreferrer">
