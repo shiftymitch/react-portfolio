@@ -13,6 +13,11 @@ function Header() {
                 <a className="nav-item nav-link" href="./about">about</a>
                 <a className="nav-item nav-link" href="./contact">contact</a>
             </div>
+            <div className="ref-links ml-auto row">
+                <a className="nav-item nav-link" href="https://github.com/shiftymitch"><i className="fa fa-github"></i></a>
+                <a className="nav-item nav-link" href="https://www.linkedin.com/in/mitch-henderson-a277bb37/"><i className="fa fa-linkedin"></i></a>
+                <a className="nav-item nav-link" href="https://docs.google.com/document/d/1eaYadtXdxD4pLtSlofdba9n4iBKFrpWhfv3goER0cj0/edit?usp=sharing"><i className="fa fa-file-text-o"></i></a>
+            </div>
         </div>
     </nav>
 }

@@ -6,6 +6,7 @@ body {
     background-image: url("./img/1.png");
     background-position: 0 0px;
     background-size: 100%;
+    background-attachment: fixed;
 }
 
 .bg2 {
@@ -43,6 +44,18 @@ div {
 .nav-link {
     font-weight: bolder;
     font-size: 1.5rem;
+}
+
+.ref-links {
+    justify-content: center;
+}
+
+.ref-links a {
+    color: #b9b9b9;
+}
+
+.ref-links a:hover {
+    color: #f9f9f9;
 }
 
 .row {
