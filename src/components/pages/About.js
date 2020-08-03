@@ -3,7 +3,8 @@ import Button from "../Button";
 import ReactGA from "react-ga";
 
 function About() {
-
+    
+    ReactGA.initialize('UA-174302758-1');
     ReactGA.pageview(window.location.pathname)
     
     return (

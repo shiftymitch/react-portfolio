@@ -1,9 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import ReactGA from "react-ga";
-ReactGA.initialize('UA-174302758-1');
 
 function Header() {
+    
+    ReactGA.initialize('UA-174302758-1');
 
     function sendHit(event) {
         ReactGA.ga('send', 'event', 'Link Click', 'click', event.target.id)
