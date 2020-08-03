@@ -2,6 +2,8 @@ import React from "react";
 import Project from "../Project";
 import projectData from "../projectData.json";
 import Button from "../Button";
+import ReactGA from "react-ga";
+ReactGA.pageview(window.location.pathname)
 
 function Home() {
     return (
@@ -10,6 +12,7 @@ function Home() {
                 {projectData.map(project => {
                     return (
                         <Project
+                            key={project.id}
                             description={project.description} 
                             id={project.id}
                             img={project.img} 

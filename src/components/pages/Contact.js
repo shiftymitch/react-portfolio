@@ -1,7 +1,14 @@
 import React from "react";
 import Button from "../Button";
+import ReactGA from "react-ga";
+ReactGA.pageview(window.location.pathname)
 
 function Contact() {
+
+    function sendHit(event) {
+        ReactGA.ga('send', 'event', 'Link Click', 'click', event.target.id)
+    }
+
     return (
         <div className="container">
             <div className="row">
@@ -14,8 +21,8 @@ function Contact() {
                                 <p><strong>Mitch Henderson</strong></p>
                                 <p>Salt Lake City, UT</p>
                                 <p>+1 (801) 599-0413</p>
-                                <a href="mailto:shiftymitch@gmail.com">
-                                    <button className="btn btn-secondary btn-dark contact-button mb-3">
+                                <a href="mailto:shiftymitch@gmail.com"  onClick={sendHit}>
+                                    <button id="email" className="btn btn-secondary btn-dark contact-button mb-3">
                                         shiftymitch@gmail.com
                                     </button>
                                 </a>
@@ -32,8 +39,8 @@ function Contact() {
                                 <h2 className="text-capitalize"><i className="fa fa-github"></i> Github</h2>
                                 <hr></hr>
                                 <li>
-                                    <a href="https://github.com/shiftymitch" target="_blank" rel="noopener noreferrer">
-                                        <button className="btn btn-secondary btn-dark contact-button">
+                                    <a href="https://github.com/shiftymitch" target="_blank" rel="noopener noreferrer" onClick={sendHit}>
+                                        <button id="github" className="btn btn-secondary btn-dark contact-button">
                                             <strong>view</strong>
                                         </button>
                                     </a>
@@ -49,8 +56,8 @@ function Contact() {
                                 <h2 className="text-capitalize"><i className="fa fa-linkedin"></i> LinkedIn</h2>
                                 <hr></hr>
                                 <li>
-                                    <a href="https://www.linkedin.com/in/mitch-henderson-a277bb37/" target="_blank" rel="noopener noreferrer">
-                                        <button className="btn btn-secondary btn-dark contact-button">
+                                    <a href="https://www.linkedin.com/in/mitch-henderson-a277bb37/" target="_blank" rel="noopener noreferrer" onClick={sendHit}>
+                                        <button id="linkedin" className="btn btn-secondary btn-dark contact-button">
                                             <strong>view</strong>
                                         </button>
                                     </a>
@@ -66,8 +73,8 @@ function Contact() {
                                 <h2 className="text-capitalize"><i className="fa fa-file-text-o"></i> My Resume</h2>
                                 <hr></hr>
                                 <li>
-                                    <a href="https://docs.google.com/document/d/1eaYadtXdxD4pLtSlofdba9n4iBKFrpWhfv3goER0cj0/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
-                                        <button className="btn btn-secondary btn-dark contact-button">
+                                    <a href="https://docs.google.com/document/d/1eaYadtXdxD4pLtSlofdba9n4iBKFrpWhfv3goER0cj0/edit?usp=sharing" target="_blank" rel="noopener noreferrer" onClick={sendHit}>
+                                        <button id="resume" className="btn btn-secondary btn-dark contact-button">
                                             <strong>view</strong>
                                         </button>
                                     </a>
