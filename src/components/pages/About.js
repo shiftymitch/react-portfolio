@@ -1,9 +1,11 @@
 import React from "react";
 import Button from "../Button";
 import ReactGA from "react-ga";
-ReactGA.pageview(window.location.pathname)
 
 function About() {
+
+    ReactGA.pageview(window.location.pathname)
+    
     return (
         <div className="container">
             <div className="row d-flex justify-content-around">

@@ -1,9 +1,9 @@
 import React from "react";
 import Button from "../Button";
 import ReactGA from "react-ga";
-ReactGA.pageview(window.location.pathname)
 
 function Contact() {
+    ReactGA.pageview(window.location.pathname)
 
     function sendHit(event) {
         ReactGA.ga('send', 'event', 'Link Click', 'click', event.target.id)

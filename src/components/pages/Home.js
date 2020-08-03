@@ -3,9 +3,11 @@ import Project from "../Project";
 import projectData from "../projectData.json";
 import Button from "../Button";
 import ReactGA from "react-ga";
-ReactGA.pageview(window.location.pathname)
 
 function Home() {
+
+    ReactGA.pageview(window.location.pathname)
+    
     return (
         <div className="container">
             <div className="row justify-content-around">
