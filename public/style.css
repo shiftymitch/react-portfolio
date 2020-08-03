@@ -48,6 +48,7 @@ div {
 
 .ref-links {
     justify-content: center;
+    margin-right: 25px;
 }
 
 .ref-links a {
@@ -56,6 +57,10 @@ div {
 
 .ref-links a:hover {
     color: #f9f9f9;
+}
+
+.google-cert {
+    font-weight: bold;
 }
 
 .row {
