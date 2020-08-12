@@ -1,7 +1,16 @@
 [
     {
+        "description": "A personalized COVID-19 dashboard.",
+        "id": "covidashboard",
+        "img": "/img/covidashboard.jpg",
+        "link": "https://shifytmitch-covid19-tracker.herokuapp.com/",
+        "name": "COVIDashboard",
+        "repo": "https://github.com/nvalline/covidashboard",
+        "tech": "React, Express, MongoDB, Passport, REST API"
+    },
+    {
         "description": "An application for storing and sharing your own recipes.",
-        "id": 1,
+        "id": "cookbook",
         "img": "/img/cookbook.jpg",
         "link": "https://the-cookbook-app.herokuapp.com/",
         "name": "Cookbook",
@@ -10,7 +19,7 @@
     },
     {
         "description": "An easy way to find relevant Earthquake data & news near you.",
-        "id": 2,
+        "id": "earthquakenow",
         "img": "/img/earthquake-now.jpg",
         "link": "https://shiftymitch.github.io/Earthquake-Now/",
         "name": "Earthquake Now",
@@ -19,7 +28,7 @@
     },
     {
         "description": "A tool to compare 2 Spotify artists.",
-        "id": 3,
+        "id": "spotifycompare",
         "img": "/img/Spotify-Compare.png",
         "link": "https://spotify-artist-compare.herokuapp.com/",
         "name": "Spotify Artist Compare",
@@ -28,7 +37,7 @@
     },
     {
         "description": "A book search tool to find and save books.",
-        "id": 4,
+        "id": "booksearch",
         "img": "/img/Google-Books-Search.png",
         "link": "https://shiftymitch-google-books.herokuapp.com/saved",
         "name": "Google Books Search",
@@ -37,7 +46,7 @@
     },
     {
         "description": "A React application to search and filter a large employee database.",
-        "id": 11,
+        "id": "employeedatabase",
         "img": "/img/employee-directory.jpg",
         "link": "https://shiftymitch-employee-directory.herokuapp.com/",
         "name": "Employee Directory",
@@ -46,7 +55,7 @@
     },
     {
         "description": "An easy way to get weather for a specified location.",
-        "id": 5,
+        "id": "weather",
         "img": "/img/Weather-Report.jpg",
         "link": "https://shiftymitch.github.io/portfolio/6/",
         "name": "Weather Report",
@@ -55,7 +64,7 @@
     },
     {
         "description": "A time-based todo list for your work day.",
-        "id": 6,
+        "id": "todolist",
         "img": "/img/Workday-Scheduler.jpg",
         "link": "https://shiftymitch.github.io/portfolio/5/",
         "name": "Workday Scheduler",
@@ -64,7 +73,7 @@
     },
     {
         "description": "Track your income & expenses with additional offline functionality.",
-        "id": 7,
+        "id": "budgettracker",
         "img": "/img/budget-tracker.png",
         "link": "https://shiftymitch-budget-tracker.herokuapp.com/",
         "name": "Budget Tracker",
@@ -73,7 +82,7 @@
     },
     {
         "description": "An MVC application to make, eat, and delete burgers.",
-        "id": 8,
+        "id": "eatdaburger",
         "img": "/img/eataburger.png",
         "link": "https://shiftymitch-eat-da-burger.herokuapp.com/",
         "name": "Eat Da Burger",
@@ -82,7 +91,7 @@
     },
     {
         "description": "A javascript + localStorage quiz application.",
-        "id": 9,
+        "id": "codingquiz",
         "img": "/img/coding-quiz.png",
         "link": "https://shiftymitch.github.io/portfolio/4/",
         "name": "Coding Quiz",
@@ -91,7 +100,7 @@
     },
     {
         "description": "A password generator with customizable criteria.",
-        "id": 10,
+        "id": "passwordgenerator",
         "img": "/img/password-generator.png",
         "link": "https://shiftymitch.github.io/portfolio/3/",
         "name": "Password Generator",
