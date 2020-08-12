@@ -2,7 +2,7 @@
     {
         "description": "A personalized COVID-19 dashboard.",
         "id": "covidashboard",
-        "img": "/img/covidashboard.jpg",
+        "img": "/img/covidashboard.png",
         "link": "https://shifytmitch-covid19-tracker.herokuapp.com/",
         "name": "COVIDashboard",
         "repo": "https://github.com/nvalline/covidashboard",
