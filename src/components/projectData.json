@@ -1,4 +1,14 @@
 [
+    
+    {
+        "description": "A tool to compare 2 Spotify artists.",
+        "id": "spotifycompare",
+        "img": "/img/Spotify-Compare.jpg",
+        "link": "https://spotify-artist-compare.herokuapp.com/",
+        "name": "Spotify Artist Compare",
+        "repo": "https://github.com/shiftymitch/spotify-artist-compare",
+        "tech": "Express, React, REST API"
+    },
     {
         "description": "A personalized COVID-19 dashboard.",
         "id": "covidashboard",
@@ -25,15 +35,6 @@
         "name": "Earthquake Now",
         "repo": "https://github.com/shiftymitch/Earthquake-Now",
         "tech": "JQuery, Moment, REST API"
-    },
-    {
-        "description": "A tool to compare 2 Spotify artists.",
-        "id": "spotifycompare",
-        "img": "/img/Spotify-Compare.png",
-        "link": "https://spotify-artist-compare.herokuapp.com/",
-        "name": "Spotify Artist Compare",
-        "repo": "https://github.com/shiftymitch/spotify-artist-compare",
-        "tech": "Express, React, REST API"
     },
     {
         "description": "A book search tool to find and save books.",
